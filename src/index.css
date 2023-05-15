@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  border-bottom: 2px solid black;
+  margin-bottom: 10rem;
+}
+h3 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+.animation{
+  width: 400px;
+  height: 100px;
+  background-color: crimson;
+  margin: 10px auto;
+}
